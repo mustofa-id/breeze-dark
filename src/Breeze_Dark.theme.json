@@ -1,0 +1,40 @@
+{
+  "name": "Breeze Dark",
+  "dark": true,
+  "author": "Mustofa",
+  "editorScheme": "/themes/Breeze_Dark.xml",
+  "colors": {
+    "colorPrimary": "#31363b",
+    "colorSecondary": "#2b3034"
+  },
+  "ui": {
+    "*": {
+      "background": "colorPrimary",
+      "separatorColor": "colorPrimary",
+      "borderColor": "colorSecondary"
+    },
+    "Editor": {
+      "background": "#232629"
+    },
+    "EditorTabs": {
+      "background": "colorSecondary"
+    },
+    "ToolWindow": {
+      "Header.inactiveBackground": "colorSecondary"
+    },
+    "Popup": {
+      "Header.activeBackground": "colorPrimary",
+      "Header.inactiveBackground": "colorSecondary"
+    },
+    "TextField": {
+      "background": "colorSecondary"
+    },
+    "SearchEverywhere.Header": {
+      "background": "#232629"
+    },
+    "Button": {
+      "startBackground": "#272b2e",
+      "endBackground": "#2a2e31"
+    }
+  }
+}
