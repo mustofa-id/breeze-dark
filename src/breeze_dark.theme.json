@@ -2,7 +2,7 @@
   "name": "Breeze Dark",
   "dark": true,
   "author": "Mustofa",
-  "editorScheme": "/themes/Breeze_Dark.xml",
+  "editorScheme": "/themes/breezeDarkScheme.xml",
   "colors": {
     "colorPrimary": "#31363b",
     "colorSecondary": "#2b3034"

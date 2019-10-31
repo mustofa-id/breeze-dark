@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>id.mustofa.breeze-dark</id>
   <name>Breeze Dark</name>
-  <version>0.1</version>
+  <version>0.2</version>
   <vendor email="hm.xdrv@gmail.com" url="https://github.com/mustofa-id/breeze-dark">Mustofa</vendor>
 
   <description><![CDATA[
@@ -14,17 +14,18 @@
   <!--  </change-notes>-->
 
   <!--  please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-  <idea-version since-build="173.0"/>
+  <idea-version since-build="191.0"/>
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html on how to target different products -->
   <depends>com.intellij.modules.platform</depends>
+  <depends>com.intellij.modules.lang</depends>
 
   <extensions defaultExtensionNs="com.intellij">
-    <themeProvider id="2558b23a-721d-4b94-a6ad-52cbffab5f57" path="/Breeze_Dark.theme.json"/>
+    <themeProvider id="2558b23a-721d-4b94-a6ad-52cbffab5f57" path="/breeze_dark.theme.json"/>
   </extensions>
 
-  <actions>
-    <!-- Add your actions here -->
-  </actions>
+  <!--  <actions>-->
+  <!--    -->
+  <!--  </actions>-->
 
 </idea-plugin>
